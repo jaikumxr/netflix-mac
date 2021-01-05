@@ -1,0 +1,24 @@
+{
+  "name": "netflix-mac",
+  "version": "1.0.0",
+  "description": "ElectronJS wrapper for Netflix as there is no native Netflix application for macOS",
+  "main": "app.js",
+  "icon": "/src/icon.icns",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaikumxr/netflix-mac.git"
+  },
+  "author": "Jai Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaikumxr/netflix-mac/issues"
+  },
+  "homepage": "https://github.com/jaikumxr/netflix-mac#readme",
+  "dependencies": {
+    "electron": "^11.1.1"
+  }
+}
